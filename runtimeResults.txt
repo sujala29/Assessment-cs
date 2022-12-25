@@ -1,0 +1,47 @@
+Runtime Results for :
+
+extraLargeArray:
+
+insert 694.1455 ms
+append 2.2153 ms
+
+
+
+Results for largeArray:
+
+
+insert(unshift)        6.9181 ms
+append(push)           365.3 μs
+
+
+
+
+mediumArray:
+
+insert(unshift)       143.9 μs
+append(push)          127.1 μs
+
+
+smallArray:
+
+insert (unshift)     99.8 μs
+
+append(push)         164.5 μs
+
+
+
+
+tinyArray:
+
+
+insert (unshift)   40 μs
+append(push)      92.1 μs
+
+
+
+Comparision and Reasons:
+
+The run time speed  for the smaller arrays for both the functions is almost similar.WHen the arrays got bigger the rumtime for .unshift is larger when comapred to the .push functions.
+
+
+
